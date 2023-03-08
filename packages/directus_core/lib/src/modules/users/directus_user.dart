@@ -30,6 +30,7 @@ class DirectusUser {
   String? language;
   String? theme;
   String? status;
+  String? code;
 
   /// Role is either [String] or [DirectusRole].
   Object? role;
