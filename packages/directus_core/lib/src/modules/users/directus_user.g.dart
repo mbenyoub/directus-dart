@@ -20,6 +20,7 @@ DirectusUser _$DirectusUserFromJson(Map<String, dynamic> json) => DirectusUser(
       language: json['language'] as String?,
       theme: json['theme'] as String?,
       status: json['status'] as String?,
+      code: json['code'] as String?,
       role: json['role'],
     );
 

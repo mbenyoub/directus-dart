@@ -60,6 +60,7 @@ class DirectusUser {
     this.language,
     this.theme,
     this.status,
+    this.code,
     this.role,
     // this.rawValues = const {},
   });

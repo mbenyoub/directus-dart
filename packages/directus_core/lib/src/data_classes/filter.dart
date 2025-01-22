@@ -47,6 +47,7 @@ class Filter {
 
   /// Check to see if field contains value.
   Filter.contains(this.value) : comparison = '_contains';
+  Filter.icontains(this.value) : comparison = '_icontains';
 
   /// Check to see if field does not contain value.
   Filter.notContains(this.value) : comparison = '_ncontains';

@@ -43,6 +43,8 @@ class DirectusResponse<T> {
       final response = await func();
       return DirectusResponse<U>(response, converter: converter);
     } on DioError catch (error) {
+      // print("Directus error :");
+      // print(error.message);
       throw DirectusError.fromDio(error);
     }
   }
