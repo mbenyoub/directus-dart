@@ -15,7 +15,7 @@ dependencies:
     
   directus_core:
     git:
-      url: https://github.com/your-username/directus-dart.git
+      url: https://github.com/benyoub/directus-dart.git
       path: packages/directus_core
   # Storage
   # shared_preferences: ^2.0.15
